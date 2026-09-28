@@ -76,25 +76,6 @@ $$
 
 > Achieved frequency is within **1 %** of the 200 MHz target.
 
-### Repository Structure
-
-```
-risaa/
-├── src/
-│   ├── risaa.py            # core annealer
-│   ├── geometry.py         # overlap / keep-out predicates
-│   ├── cost.py             # composite objective
-│   └── io_parser.py        # XDC / Pblock reader
-├── scripts/
-│   ├── run_risaa.tcl       # Vivado integration
-│   └── report_timing.tcl   # STA wrapper
-├── examples/
-│   └── picosoc/            # reference design
-├── docs/
-│   └── algorithm.md
-└── README.md
-```
-
 ### Quick Start
 
 ```bash
@@ -193,24 +174,6 @@ $$
 
 > Достигнутая частота отличается от целевых 200 МГц менее чем на **1 %**.
 
-### Структура репозитория
-
-```
-risaa/
-├── src/
-│   ├── risaa.py            # ядро алгоритма
-│   ├── geometry.py         # предикаты перекрытий и запретных зон
-│   ├── cost.py             # целевая функция
-│   └── io_parser.py        # чтение XDC / Pblock
-├── scripts/
-│   ├── run_risaa.tcl       # интеграция с Vivado
-│   └── report_timing.tcl   # обёртка STA
-├── examples/
-│   └── picosoc/            # эталонный проект
-├── docs/
-│   └── algorithm.md
-└── README.md
-```
 
 ### Быстрый старт
 
