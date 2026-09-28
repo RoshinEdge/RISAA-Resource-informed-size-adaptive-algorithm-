@@ -118,19 +118,6 @@ python src/risaa.py \
 - Xilinx Vivado ≥ 2020.2 (for timing closure)
 - Supported devices: Kintex-7, Virtex-7, UltraScale, UltraScale+
 
-### Citation
-
-```bibtex
-@article{risaa2026,
-  title   = {Variable-Size Floorplanning for Multi-FPGA Prototyping
-             via Simulated Annealing},
-  author  = {<authors>},
-  journal = {IEEE Access},
-  year    = {2026},
-  doi     = {<doi>}
-}
-```
-
 ### License
 
 MIT License. See `LICENSE` for details.
@@ -247,19 +234,6 @@ python src/risaa.py \
 - NumPy, SciPy
 - Xilinx Vivado ≥ 2020.2 (для временного анализа)
 - Поддерживаемые семейства: Kintex-7, Virtex-7, UltraScale, UltraScale+
-
-### Цитирование
-
-```bibtex
-@article{risaa2026,
-  title   = {Variable-Size Floorplanning for Multi-FPGA Prototyping
-             via Simulated Annealing},
-  author  = {<авторы>},
-  journal = {IEEE Access},
-  year    = {2026},
-  doi     = {<doi>}
-}
-```
 
 ### Лицензия
 
